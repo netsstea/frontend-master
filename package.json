@@ -1,0 +1,53 @@
+{
+  "name": "trainjs",
+  "version": "1.0.0",
+  "description": "Javascript in deep",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1",
+    "stringify": "^5.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/spd90/javascript.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "QuangDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/spd90/javascript/issues"
+  },
+  "homepage": "https://gitlab.com/spd90/javascript#README",
+  "stringify": {
+    "appliesTo": {
+      "includeExtensions": [
+        ".mustache",
+        ".html"
+      ]
+    },
+    "minifyAppliesTo": {
+      "includeExtensions": [
+        ".mustache",
+        ".html"
+      ]
+    },
+    "minify": false
+  }
+}
